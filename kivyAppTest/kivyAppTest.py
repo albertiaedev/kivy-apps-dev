@@ -14,7 +14,7 @@ class PrintMessage(App):
 
 	self.kivyAppTest = Label(text="Kivy App",font_size=60,color="#c70202")
 	self.window.add_widget(self.kivyAppTest)
-        self.window.add_widget(Image(source="icon/kivy-icon-256.png"))
+        self.window.add_widget(Image(source="logo/kivy-logo-black-256.png"))
 
 	self.intro = Label(text="This app is a test.")
         self.msg = Label(text="Here goes your message",font_size=48,color="#c70202")
